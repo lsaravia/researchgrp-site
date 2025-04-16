@@ -18,7 +18,7 @@ sections:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Ecosystems Under Pressure - From the Amazon to Antarctica
+      - title: Ecosystems Under Pressure From the Amazon to Antarctica
         content: Our research spans ecosystems from the Amazon basin to the Southern Ocean, addressing pressing questions about biodiversity loss, food web stability, climate change, fragmentation, and disturbance regimes such as wildfires.
         align: left
         background:

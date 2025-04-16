@@ -11,13 +11,11 @@ sections:
         Ecology and complex systems
         CADIC Research Group
       image:
-        filename: Antartida.jpg
+          filename: Antartida.jpg 
       text: |
         <br>
         
-        The Ecological Complex Systems Lab investigates how ecological systems are shaped by interactions across scales—spatial, temporal, and organizational—using complex systems theory, quantitative modeling, and network approaches. Our research spans ecosystems from the Amazon basin to the Southern Ocean, addressing pressing questions about biodiversity loss, food web stability, climate change, fragmentation, and disturbance regimes such as wildfires.
-
-        We develop and apply tools grounded in network theory, spatial ecology, and stochastic modeling to explore how species interactions—both trophic and non-trophic—govern the resilience and functioning of ecosystems under anthropogenic stressors. Our lab integrates theory with empirical data, collaborating across disciplines to inform both fundamental ecology and environmental decision-making.
+        The Ecological Complex Systems Lab investigates how ecological systems are shaped by interactions across scales—spatial, temporal, and organizational—using complex systems theory, quantitative modeling, and network approaches. 
 
   - block: collection
     content:

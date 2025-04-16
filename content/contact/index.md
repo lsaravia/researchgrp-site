@@ -21,7 +21,7 @@ sections:
         latitude: '-54.8211433796548'
         longitude: '-68.32384044085096'
 
-      appointment_url: 'https://calendly.com'
+      #appointment_url: 'https://calendly.com'
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
