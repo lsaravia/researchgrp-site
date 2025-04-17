@@ -5,17 +5,31 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
+  - block: markdown
     content:
-      title: |
+      title:  |
         Ecology and complex systems
-        CADIC Research Group
-      image:
-          filename: Antartida.jpg 
+        
+      subtitle: 'Centro Austral de Investigaciones Científicas (CADIC)'
       text: |
         <br>
         
         The Ecological Complex Systems Lab investigates how ecological systems are shaped by interactions across scales—spatial, temporal, and organizational—using complex systems theory, quantitative modeling, and network approaches. 
+    design:
+      columns: '1'
+      background:
+        image: 
+          filename: antartida-cassie-matias.jpg
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      css_class: fullscreen
+
 
   - block: collection
     content:
@@ -64,7 +78,7 @@ sections:
       filters:
         folders:
           - publication
-        publication_type: 'article'
+        publication_type: ''
     design:
       view: citation
       columns: '1'
