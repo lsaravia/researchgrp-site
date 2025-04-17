@@ -19,7 +19,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: antartida-cassie-matias.jpg
+          filename: antartida-cassie-matias.png
           filters:
             brightness: 1
           parallax: false
