@@ -22,7 +22,7 @@ sections:
           filename: antartida-cassie-matias.png
           filters:
             brightness: 1
-          parallax: false
+          parallax: true
           position: center
           size: cover
 
