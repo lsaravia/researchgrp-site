@@ -61,8 +61,7 @@ education:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 social:
-- icon: bluesky
-  icon_pack: fab
+- icon: custom/bluesky
   link: 'https://bsky.app/profile/larysar.bsky.social'
 - icon: brands/x
   link: 'https://twitter.com/larysar'
