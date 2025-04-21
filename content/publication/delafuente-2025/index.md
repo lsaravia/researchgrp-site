@@ -24,3 +24,4 @@ image:
   focal_point: ""
 projects: []
 tags: ["forest-fire", "invasion", "stochastic models"]
+---
