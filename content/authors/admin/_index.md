@@ -42,7 +42,7 @@ education:
   courses:
     - course: Licenciatura en Biología
       institution: Universidad de Buenos Aires
-      date_end: 1995-12-31
+      year: 1995-12-31
       summary: |
         Modelling periphyton dynamics in running water. Supervised by [Dr. Fernando Momo](https://www.researchgate.net/profile/Fernando-Momo). 
       button:
@@ -51,7 +51,7 @@ education:
 
     - course: PhD in Biology
       institution: Universidad de Buenos Aires
-      date_end: 2010-12-31
+      year: 2010-12-31
       summary: |
         Some spatial questions in ecology. Models, data and aplications. Supervised by [Dr. Fernando Momo](https://www.researchgate.net/profile/Fernando-Momo). 
       button:
@@ -61,9 +61,11 @@ education:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 social:
-- icon: custom/bluesky
+- icon: bluesky
+  icon_pack: fab
   link: 'https://bsky.app/profile/larysar.bsky.social'
-- icon: brands/x
+- icon: x-twitter
+  icon_pack: fab
   link: 'https://twitter.com/larysar'
 - icon: google-scholar 
   icon_pack: fab
