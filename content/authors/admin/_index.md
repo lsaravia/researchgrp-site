@@ -25,7 +25,7 @@ organizations:
   url: "https://www.untdf.edu.ar/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Investigador Independiente CADIC - CONICET, Docente/Investigador de la UNTDf, Doctor en Biología de la UBA. Complex systems. Networks. Global Forest Fragmentation. Open science. R, Julia, Netlogo, C++ & Python.
+bio: Investigador Independiente CADIC - CONICET, Docente/Investigador de la UNTDF, Doctor en Biología de la UBA. Complex systems. Networks. Global Forest Fragmentation. Open science. R, Julia, Netlogo, C++ & Python.
 
 # Interests to show in About widget
 interests:
@@ -61,12 +61,9 @@ education:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 social:
-- icon: bluesky
-  icon_pack: fab
-  link: 'https://bsky.app/profile/larysar.bsky.social'
 - icon: x-twitter
   icon_pack: fab
-  link: 'https://twitter.com/larysar'
+  link: 'https://bsky.app/profile/larysar.bsky.social'
 - icon: google-scholar 
   icon_pack: fab
   link: https://scholar.google.com/citations?user=FEQ1q5MAAAAJ&hl=es
