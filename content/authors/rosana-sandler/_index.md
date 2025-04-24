@@ -47,15 +47,10 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: x-twitter
-  incon_pack: fab
-  link: https://bsky.app/profile/123iamela.bsky.social
 - icon: researchgate
   icon_pack: fab
-  link: https://www.researchgate.net/profile/Iara_Rodriguez3
-- icon: github
-  icon_pack: fab
-  link: https://github.com/123iamela/
+  link: https://www.researchgate.net/profile/Rosana-Sandler
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
