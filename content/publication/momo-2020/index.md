@@ -1,0 +1,40 @@
+---
+title: Seaweeds in the Antarctic Marine Coastal Food Web
+authors:
+- Fernando R. Momo
+- Georgina Cordone
+- Tomás I. Marina
+- Vanesa Salinas
+- Gabriela L. Campana
+- Mariano A. Valli
+- Santiago R. Doyle
+- admin
+date: '2020-01-01'
+publishDate: '2025-04-24T14:18:33.069623Z'
+publication_types:
+- chapter
+publication: '*Antarctic Seaweeds: Diversity, Adaptation and Ecosystem Services*'
+doi: 10.1007/978-3-030-39448-6_15
+abstract: Antarctic macroalgae are the basis of marine food webs in most coastal environments,
+  especially the more confined ones such as bays and fjords. Whether through direct
+  consumption or via detritus, their role in maintaining biodiversity is essential.
+  However, their relevance is due not only by direct trophic interactions but also
+  by indirect feedbacks, since macroalgae act as a habitat and refuge for multiple
+  benthic organisms and as a substrate for epiphytic microalgae. Macroalgae also establish
+  relations of exploitative competition, apparent competition, and mutualism. The
+  control over the biomass and diversity of the macroalgae itself does not seem to
+  be due to trophic interactions (top-down control) but rather to competition and
+  diverse abiotic factors such as substrata and light availability or physical disturbances
+  (ice scouring). The extreme connectivity of trophic networks linked to algae and
+  their detritus determines that food webs are robust to local extinctions; however,
+  non-trophic interactions indicate that changes that affect the growth, biomass,
+  and distribution of macroalgae can have dramatic effects on the diversity of their
+  associated fauna and, indirectly, on the networks of consumers of that fauna. In
+  this chapter, we present a detailed description of macroalgae relationship networks
+  and analyze the stability of the Antarctic community using food web theory.
+tags:
+- Biological interactions
+- Community structure
+- Ecological networks
+- Trophic level
+---

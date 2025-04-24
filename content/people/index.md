@@ -13,13 +13,15 @@ sections:
       user_groups:
           - Principal Investigators
           - Researchers
-          - Becarios/Becarias
-          - PhD Students
-          - Post-docs
+          - Grad Students
+          - Administration
           - Visitors
-          - Ex-Becarixs
-          - Ex Post-docs
+          - Alumni
           - Former PhD Students
+          - PhD Students
+          - Ex Post-docs
+          - Ex PhD Students
+          
       sort_by: Params.last_name
       sort_ascending: true
     design:

@@ -66,15 +66,13 @@ social:
   link: 'https://bsky.app/profile/larysar.bsky.social'
 - icon: google-scholar 
   icon_pack: fab
-  link: https://scholar.google.com/citations?user=FEQ1q5MAAAAJ&hl=es
+  link: 'https://scholar.google.com/citations?user=FEQ1q5MAAAAJ&hl=es'
 - icon: github
   icon_pack: fab
-  link: https://github.com/lsaravia
+  link: 'https://github.com/lsaravia'
 - icon: researchgate
   icon_pack: fab
-  link: https://www.researchgate.net/profile/Leonardo-Saravia
-
-
+  link: 'https://www.researchgate.net/profile/Leonardo-Saravia'
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
