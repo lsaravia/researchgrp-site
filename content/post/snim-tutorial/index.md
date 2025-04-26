@@ -34,9 +34,9 @@ projects: []
 
 This is a beautifully simple ecological network model that can simulate predator-prey and competitive multispecies dynamics. This is the **B** model of the paper [^1], I read it long ago and for many years I wanted to make a version of it, finally, I did it.
 
-You can find the source code here <https://github.com/lsaravia/snim>, to install it you need to clone it using `git clone` or download and compile it, following the instructions in the README will be enough.
+You can find the source code here <https://github.com/lsaravia/snim>. To install it, clone the repository using `git clone` or download and compile it, following the instructions in the README.
 
-Then the description of the model from [^1] is the following 
+The model description from [^1] is the following:
 
 > The second model again involves a set of S (possible) species plus empty sites (pseudospecies
 labelled 0). This set (the species pool) $\Omega(S)$ is then a discrete set:
@@ -63,11 +63,18 @@ labelled 0). This set (the species pool) $\Omega(S)$ is then a discrete set:
 >
 > where $\pi[x]=x$ when $x > 0$ and zero otherwise. This probability of an interaction occurring in the system between species $i$ and $j$ is a measure of the interaction strength linking interacting species.
 
-So I'll demonstrate how to use it from *R*
+---
 
-Then the fun part is to make simulations, for that we need the parameters: there is an species parameter file and a simulation parameter file. 
+## Using SNIM from R
 
-The structure of the species parameter file is in the following example:
+Once installed, you can easily run simulations from R.
+
+First, the model requires two input files:
+- A **species parameter file** (`.par`)
+- A **simulation parameter file** (`.cfg`)
+
+### Example: Species Parameter File
+
 
 ``` 
 # Model parameters example 
@@ -85,13 +92,13 @@ The structure of the species parameter file is in the following example:
 4.0 0.0 0.0 0.0
 2.0 0.0 0.5 0.0
 ```
-The lines that start with '#' are comments, then the first 3 lines define the general parameters. 
+**Explanation:**
+- **First line:** Number of species and total habitat size.
+- **Second line:** Immigration rates for each species.
+- **Third line:** Extinction rates for each species.
+- **Following lines:** Omega interaction matrix (including intrinsic growth rates and interactions).
 
-The  first row define a total amount of habitat in our simulation, then the number of species.
-
-Species can migrate from the outside, this asumes that the habitat is sorrounded by a regional or bigger community that is the source of individuals. Then the 2nd. row is the immigration rate vector. Species can go locally extinct or death, we assume that they don't live forever. And finally the 'omega' or interaction matrix, the first column are the intrinsic growth rate of species, and the first row is a special species: the empty space. 
-
-Then we need the simulation parameters, this is a simple example
+### Example: Simulation Parameter File
 
 ```
 # Simulation parameters example 
@@ -103,7 +110,12 @@ iniCond = 1000          # Initial condition of abundance of species
                         # if only one number is specified all the species will have the same initial conditions
 ```
 
-So to run from 'RStats' there is a set of functions included, and we need to set a global variable with the binary of the model. If we call `simul.cfg` to the simulation file, and `model3.par` to the parameters file the following code will run the model
+---
+
+## Running the Model from R
+
+A set of R functions are included. First, set a global variable pointing to the SNIM binary. Then, run the simulation:
+
 
 ```R
 # Global path to the binary of SNIM model
@@ -117,7 +129,11 @@ out <- run_snim_plot("simul.cfg","model3.par","model.out")
 
 {{< figure src="model3.png" title="" lightbox="true" >}}
 
-One nice addition to this plot is to add an annimation with the R package `gganimate`, I only changed the `nEvals = 100` in the simulation parameters file, and made another run of the model, then plot with the `out` dataframe, 
+---
+
+## Animating the Dynamics with `gganimate`
+
+An animation of the species densities can be created. First, set a shorter simulation (`nEvals = 100`), run the model again, and use:
 
 ```R
 require(gganimate)
