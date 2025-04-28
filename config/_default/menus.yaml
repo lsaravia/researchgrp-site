@@ -19,6 +19,9 @@ main:
   - name: Publications
     url: publication
     weight: 50
+  - name: Tags
+    url: tags
+    weight: 60
   - name: Contact
     url: contact
-    weight: 60
+    weight: 70

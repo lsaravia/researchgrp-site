@@ -29,10 +29,10 @@ bio: Investigador Independiente CADIC - CONICET, Docente/Investigador de la UNTD
 
 # Interests to show in About widget
 interests:
-- Ecología teórica
-- Redes (tróficas y no tróficas)
+- Theoretical ecology
+- trophic and non-trophic networks
 - Global forest Fragmentation
-- R Statistical languaje
+- R Statistical language
 - Netlogo/GoogleEarthEngine/C++
 - Julia
 
