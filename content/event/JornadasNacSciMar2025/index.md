@@ -1,7 +1,7 @@
 ---
-title: XII Jornadas Nacionales de Ciencias del Mar.
+title: Redes ecológicas en las XII Jornadas Nacionales de Ciencias del Mar.
 
-event: XII Jornadas Nacionales de Ciencias del Mar.
+event: Redes ecológicas en las XII Jornadas Nacionales de Ciencias del Mar. 
 event_url: https://www.unp.edu.ar/XIIJNCM/
 
 location: Centro Nacional Patagónico CCT CONICET-CENPAT
@@ -71,10 +71,7 @@ slides:
 projects:
 ---
 
-Slides can be added in a few ways:
+**[El evento está anunciado aquí](https://www.unp.edu.ar/XIIJNCM/index.php/participar/envio-resumenes/122-programa/sesiones-tematicas/biodiversidad-conservacion/334-redes-ecologicas)**
 
-- **Create** slides using Wowchemy's [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
+**[Las circulares de las jornadas están disponibles aquí](https://www.unp.edu.ar/XIIJNCM/index.php/las-jncm/circulares)** 
 
-Further event details, including page elements such as image galleries, can be added to the body of this page.
