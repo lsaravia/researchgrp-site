@@ -152,14 +152,14 @@ We use this in a more systematic way with:
 ```r
 results <– generate_shuffled_seq(
   netData[[29]], 
-  max_delta= 100,
+  max_delta= 200,
   modularity_func = run_infomap, 
   shuffle_func = shuffle_network_deg
 )
 
 ```
 
-This produces a sequence of 100 networks each with 10 edge swaps using the `shuffle_network_deg` algorithm 
+This produces a sequence of 200 networks each with 10 edge swaps using the `shuffle_network_deg` algorithm 
 
 Plotting modularity over shuffle steps can help detect when modularity deviates from the empirical structure.
 
@@ -181,9 +181,11 @@ ggplot(metrics_df, aes(x = Step, y = Modularity, color = Type)) +
   theme_bw()
 ````
 
-![Shuffle Modularity Plot](degree_shuffling_plot.png)
+![Shuffle Modularity Plot](modularity_shuffling_plot.png)
 
 ---
+
+The graph shows that gradual shuffling runs through the distribution of modularity values ​​obtained by the `curve_ball` routine (previous graph) and at least in 200 iterations no stabilization of modularity is observed.
 
 ## Summary
 
@@ -204,3 +206,4 @@ ggplot(metrics_df, aes(x = Step, y = Modularity, color = Type)) +
 - 📄 Strona et al. 2014. *Nature Communications* 5:4114. [https://doi.org/10.1038/ncomms5114](https://doi.org/10.1038/ncomms5114)
 
 Feel free to reach out or open an issue on GitHub if you'd like to contribute!
+
